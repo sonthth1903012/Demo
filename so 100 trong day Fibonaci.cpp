@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-	long long a=0,b=1;
+	long long a=1,b=1;
 	for(int i=3;i<=100;i+=2){
 		a = a + b;
 		b = b + a;
