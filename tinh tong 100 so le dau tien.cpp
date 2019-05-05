@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-	int s=0,a=1,i=1;
-	while(i<=100){
-		s = s + a;
-		a = a + 2;
-		i = i + 1;
+	int S=0,i=1,count=0;
+	while(count<100){
+		S = S + i;
+		i+= 2; // 			i = i + 2;
+		count++; //			count = count + 1;
 	}
-	printf("Lam theo kieu while thi s = %d \n",s);
+	printf("Lam theo kieu while thi S = %d \n",S);
 	
 	int x=0,y=1,z=1;
 	do {
