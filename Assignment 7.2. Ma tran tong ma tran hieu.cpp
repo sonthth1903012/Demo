@@ -2,10 +2,13 @@
 
 int main(){
 	int m,n;
-	printf("Nhap gia tri cua m = ");
-	scanf("%d",&m);
-	printf("Nhap gia tri cua n = ");
-	scanf("%d",&n);
+	do{
+		printf("Nhap gia tri cua m = ");
+		scanf("%d",&m);
+		printf("Nhap gia tri cua n = ");
+		scanf("%d",&n);
+	}
+	while(m<1||n<1);
 	int matran1[m][n],matran2[m][n],matrantong[m][n],matranhieu[m][n];
 	for(int i=0;i<m;i++){
 		for(int j=0;j<n;j++){
