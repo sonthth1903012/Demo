@@ -3,7 +3,7 @@
 int main(){
 	int array[10];
 	for(int i=0;i<10;i++){
-		printf("Nhap array[%d] = ",i);
+		printf("Nhap gia tri array[%d] = ",i);
 		scanf("%d",&array[i]);
 	}
 	int a = array[0], b = array[0];
