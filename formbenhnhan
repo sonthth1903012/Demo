@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Điền thông tin bệnh nhân</h1>
+<form action="/benhnhan/create" method="post">
+    <div>Họ và tên: <input type="text" name="name"></div>
+    <div>Năm sinh: <input type="text" name="age"></div>
+    <div>Giới tính:
+        <select>
+            <option>Nam</option>
+            <option>Nữ</option>
+            <option>Chưa xác định</option>
+        </select>
+    </div>
+    <div>Địa chỉ: <input type="text" name="adress"></div>
+    <div>Số điện thoại: <input type="text" name="phone"></div>
+    <div>Khám bệnh:
+        <select>
+            <option>Tim mạch</option>
+            <option>Hô Hấp</option>
+            <option>Cơ Xương Khớp</option>
+            <option>Chưa xác định</option>
+        </select>
+    </div>
+    <div>Đau ở đâu:
+        <select>
+            <option>Đầu</option>
+            <option>Ngực</option>
+            <option>Bụng</option>
+            <option>Lưng</option>
+            <option>Tay</option>
+            <option>Chân</option>
+            <option>Không rõ</option>
+        </select>
+    </div>
+    <div>Bệnh từ bao giờ: <input type="text" name="tubaogio"></div>
+    <div>Bệnh có lan đến bộ phận nào khác: <input type="text" name="lansang"></div>
+    <div>Triệu chứng gì kèm theo: <input type="text" name="kemtheo"></div>
+    <div>Đã điều trị ở đâu chưa: <input type="text" name="dieutrichua"></div>
+    <div>Đã điều trị thuốc gì: <input type="text" name="dieutrichua"></div>
+    <div>Huyết áp bình thường ở nhà: <input type="text" name="dieutrichua"></div>
+    <div>Huyết áp cao nhất: <input type="text" name="dieutrichua"></div>
+    <div>Huyết áp thấp nhất: <input type="text" name="dieutrichua"></div>
+    <div>Sốt:
+        <select>
+            <option>Có</option>
+            <option>Không</option>
+        </select>
+    </div>
+    <div>Ho:
+        <select>
+            <option>Có</option>
+            <option>Không</option>
+        </select>
+    </div>
+    <div>Đau đầu:
+        <select>
+            <option>Có</option>
+            <option>Không</option>
+        </select>
+    </div>
+    <div>Nôn:
+        <select>
+            <option>Có</option>
+            <option>Không</option>
+        </select>
+    </div>
+    <div>Mất ngủ:
+        <select>
+            <option>Có</option>
+            <option>Không</option>
+        </select>
+    </div>
+    <div>Triệu chứng khác: <input type="text" name="tubaogio"></div>
+    <div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+</form>
+</body>
+</html>
