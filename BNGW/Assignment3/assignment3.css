@@ -1,0 +1,42 @@
+p {
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    color: rgb(120, 120, 120);
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 38px;
+    text-align: left;
+}
+.header{
+    width: 1366px;
+    height: 100px;
+    background-color: #ffffff;
+}
+.logo{
+    width: 31px;
+    height: 25px;
+}
+.indam{
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.leftblock{
+    width: 683px;
+    height: 570px;
+    background-color: #f6f6f6;
+    float: left;
+    padding: 98px 155px 178px 110px;
+    box-sizing: border-box;
+    /*box-shadow: 10px 5px 10px red*/
+    /*border-radius: 100%*/
+}
+.rightblock{
+    width: 683px;
+    height: 570px;
+    background-color: #e6e6e6;
+    float: left;
+}
