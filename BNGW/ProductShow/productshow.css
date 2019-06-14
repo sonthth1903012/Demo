@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    float: none;
+}
+/*Phan Header*/
+header{
+    width: 100%;
+    background-color: white;
+}
+.contact{
+    float: left;
+    width: 100%;
+    height: 61px;
+    border-bottom: 1px solid #edeff1;
+    color: #34404b;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+div.contact > div.container{
+    display: flex;
+    align-items: center;
+}
+.social{
+    margin-left: auto;
+}
+nav{
+    float: left;
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #edeff1;
+    display: flex;
+    align-items: center;
+}
+nav > div.container {
+    display: flex;
+    align-items: center;
+}
+div.navlink > ul{
+    font-size: 16px;
+    text-transform: uppercase;
+    display: flex;
+}
+div.navlink > ul > li{
+    list-style-type: none;
+}
+div.navlink > ul > li:nth-child(3){
+    color: #ff5912;
+}
+.navuser{
+    margin-left: auto;
+}
+
+/*Phan Content1*/
+#content{
+    width: 100%;
+    float: left;
+}
+.block-top{
+    width: 100%;
+    height: 650px;
+    float: left;
+}
+.product{
+    width: 470px;
+    float: left;
+}
+.bigproduct{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.smallproduct{
+    width: 100%;
+    float: left;
+}
+.detail{
+    width: calc(100% - 470px);
+    float: left;
+}
+.detail1{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #edeff1;
+}
+div.detail1 > p:nth-child(1){
+    font-size: 52px;
+    color: #ff5912;
+}
+div.detail1 > p:nth-child(2){
+    font-size: 18px;
+    color: #3c4751;
+}
+div.detail1 > p:nth-child(3){
+    font-size: 18px;
+    color: #495662;
+}
+.detail2{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #edeff1;
+}
+div.detail3 > span:nth-child(5){
+    color: #ffffff;
+    background-color: #ff5912;
+    border-radius: 10%;
+}
+/*Phan Content2*/
+.block-bottom{
+    width: 100%;
+    height: 1000px;
+    float: left;
+    background-color: #f4f6f8;
+}
+.related-tittle{
+    text-align: center;
+}
+div.related-tittle > span{
+    font-size: 28px;
+}
+div.related-tittle > p{
+    font-size: 16px;
+    color: #495662;
+}
+div.related-tittle :nth-child(1){
+    color: #ff5912;
+}
+div.related-tittle :nth-child(2){
+    color: #34404b;
+}
+
+.related-products{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+div.related-products :nth-child(n){
+    width: 270px;
+    height: 365px;
+    background-color: #ffffff;
+}
+.letter{
+    float: left;
+    background-color: #ffffff;
+}
+div.letter :nth-child(1){
+    font-size: 18px;
+    color: #ff5912;
+}
+div.letter :nth-child(even){
+    font-size: 14px;
+    font-style: italic;
+}
+div.letter :nth-child(5){
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ff5912;
+}
+/*Phan footer*/
+footer{
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+footer > div.container{
+    display: flex;
+    justify-content: space-between;
+}
