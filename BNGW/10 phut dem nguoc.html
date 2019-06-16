@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <title>10 phút đếm ngược</title>
     <script>
+        function twonumber(number) {
+            return (number.toString().length < 2 ? "0" + number : number);
+        }
         var t = 600;
-        setInterval(function () {
-            console.log(parseInt(t/60) + ":" + t%60);
+        var it = setInterval(function () {
+            console.log(twonumber(parseInt(t/60)) + ":" + twonumber(t%60));
             t--;
+            if(t==-1){clearInterval(it)}
         },1000)
     </script>
 </head>
