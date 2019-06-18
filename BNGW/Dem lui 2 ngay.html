@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đếm lùi 2 ngày</title>
+    <script type="text/javascript">
+        function countdown() {
+            function twonumber(a) {
+                return a<10?"0"+a:a;
+            }
+            var d=2,h=0,m=0,s=10;
+            var count = setInterval(function () {
+                if(s==-1){m--;s=59;}
+                if(m==-1){h--;m=59;}
+                if(h==-1){d--;h=23;}
+                if(d==0&h==0&m==0&s==0){clearInterval(count)};
+                document.getElementById("day").innerText = twonumber(d);
+                document.getElementById("hour").innerText = twonumber(h);
+                document.getElementById("minute").innerText = twonumber(m);
+                document.getElementById("second").innerText = twonumber(s);
+                s--;
+            },1000);
+        }
+    </script>
+    <style type="text/css">
+        #content{
+            width: 800px;
+            height: 600px;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: space-around;
+            background-color: beige;
+            border: 1px dotted red;
+            border-radius: 10px;
+        }
+        #content div{
+            font-size: 30px;
+            text-align: center;
+        }
+        .clock{
+            display: flex;
+            justify-content: space-around;
+        }
+        div.clock>div{
+            width: 150px;
+            height: 150px;
+            color: #ffffff;
+            border: 1px dotted;
+            border-radius: 50%;
+            background-color: chocolate;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body onload="countdown()">
+<div id="content" >
+    <div><span>Comming Soon</span></div>
+    <div class="clock">
+        <div><span id="day"></span><span>Ngày</span></div>
+        <div><span id="hour"></span><span>Giờ</span></div>
+        <div><span id="minute"></span><span>Phút</span></div>
+        <div><span id="second"></span><span>Giây</span></div>
+    </div>
+    <div><span>Countdown Timer</span></div>
+</div>
+</body>
+</html>
