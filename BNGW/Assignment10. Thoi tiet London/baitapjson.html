@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thời tiết London</title>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+</head>
+<body>
+<div class="weather">
+    <p>City: </p>
+    <p>Temp: </p>
+    <p>Min: </p>
+    <p>Max: </p>
+    <p>Desc: </p>
+</div>
+<div class="content"></div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            url: "data/weather.json",
+            method: "get",
+            success: function (hihi) {
+                $(".weather p:nth-child(1)").append(hihi.name);
+                $(".weather p:nth-child(2)").append(hihi.main.temp);
+                $(".weather p:nth-child(3)").append(hihi.main.temp_min);
+                $(".weather p:nth-child(4)").append(hihi.main.temp_max);
+                $(".weather p:nth-child(5)").append(hihi.weather[0].description);
+            }
+        });
+    });
+</script>
+</body>
+</html>
