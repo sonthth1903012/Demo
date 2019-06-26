@@ -1,0 +1,14 @@
+@media screen and (max-width: 900px){
+    div.stores > div.container{
+        flex-direction: column;
+    }
+    #map {
+        height: 500px;
+        width: 100%;
+        float: left;
+    }
+    div.stores-detail div.local-stores{
+        width: 100%;
+        float: left;
+    }
+}

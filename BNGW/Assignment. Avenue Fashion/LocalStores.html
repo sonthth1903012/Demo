@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avenue Fashion</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reponsive.css"/>
     <link rel="stylesheet" type="text/css" href="css/all.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400,700&display=swap" rel="stylesheet"/>
+    <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400,700&display=swap" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="js/function.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key&callback=initMap" async defer></script>
@@ -15,17 +17,29 @@
 <header>
     <div class="top-link">
         <div class="container">
-            <div class="currency">Currency:GBP</div>
-            <div class="link">Register Singin Empty</div>
+            <div class="currency">Currency : GBP</div>
+            <div class="link">
+                <a>Register</a>
+                <a>Sing In</a>
+                <a>Empty</a>
+            </div>
         </div>
     </div>
     <div class="header-main">
         <div class="logo">avenue fashion</div>
         <div class="container">
-            <nav>mens                womens                the brand                local stores                look book</nav>
+            <nav>
+                <ul>
+                    <li>mens</li>
+                    <li>womens</li>
+                    <li>the brand</li>
+                    <li>local stores</li>
+                    <li>look book</li>
+                </ul>
+            </nav>
         </div>
         <div class="header-search">
-            <p>Search</p>
+            <input type="text" placeholder="Search..."/>
         </div>
     </div>
     <div class="intro">
@@ -34,7 +48,7 @@
     </div>
 </header>
 
-<section id="content">
+<section>
     <div class="stores">
         <div class="container">
             <div class="local-stores">
@@ -66,9 +80,16 @@
             <p></p>
             <p></p>
             <p></p>
+            <p></p>
+            <p></p>
+            <div class="net">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
         </div>
     </div>
-
 </section>
 
 <footer>
@@ -127,7 +148,8 @@
         </div>
         <div class="foot-ads">
             <div class="ads-1">
-                <p>award winner fashion awards 2016</p>
+                <p>award winner</p>
+                <p>fashion awards 2016</p>
             </div>
             <div class="ads-2">
                 <span>
@@ -136,7 +158,6 @@
                     <i class="fab fa-instagram"></i>
                     <i class="fab fa-pinterest"></i>
                 </span>
-
             </div>
         </div>
     </div>
@@ -144,7 +165,10 @@
 <div class="note">
     <div class="container">
         <div class="assign1"><p>© 2016 Avenue Fashion™ </p></div>
-        <div class="assign2"><p>Design by RobbyDesigns.com Dev by Loremipsum.com</p></div>
+        <div class="assign2">
+            <p>Dev by Loremipsum.com</p>
+            <p>Design by RobbyDesigns.com</p>
+        </div>
     </div>
 </div>
 </body>

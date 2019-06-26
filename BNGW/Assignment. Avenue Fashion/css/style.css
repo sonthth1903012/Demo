@@ -7,7 +7,8 @@
 }
 /*Day la phan chung*/
 body {
-    width: 2050px;
+    width: 100%;
+    font-family: "Montserrat";
 }
 .container{
     float: none;
@@ -17,6 +18,7 @@ body {
 ul > li{
     list-style-type: none;
 }
+
 /* Day la phan header */
 header{
     float:left;
@@ -29,19 +31,39 @@ header{
     height: 45px;
     background-color: #333333;
 }
+div.top-link > div.container{
+    height: 100%;
+}
 .currency{
-    font-family: 'Monteserrat';
+    width: 50%;
+    height: 100%;
     color: #777777;
     font-size: 13px;
     float: left;
-    width: 50%;
+    padding-top: 15px;
 }
-.link{
-    font-family: 'Monteserrat';
+div.link{
     color: #999999;
     font-size: 13px;
-    float: left;
+    float: right;
     width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+div.link :nth-child(-n+2){
+    padding: 15px;
+}
+div.link :nth-child(3){
+    height: 100%;
+    color: #ffffff;
+    padding: 15px 20px 15px 40px;
+    background-color: #00c8c8;
+}
+div.link :nth-child(3)::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f07a";
+    font-weight: 900;
 }
 .header-main{
     float: left;
@@ -50,16 +72,31 @@ header{
     background-color: #f8f8f8;
 }
 .logo{
-    font-family: 'Monteserrat';
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
+    float: left;
+    padding-top: 40px;
+}
+nav > ul{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 45px;
+}
+nav > ul > li{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.header-search{
+    float: right;
 }
 .intro{
     float: left;
     width: 100%;
     height: 450px;
-    font-family: 'Montserrat';
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
@@ -78,29 +115,120 @@ header{
 }
 
 /* Day la phan content */
-#content{
-    height: 1000px;
-    float: left;
-}
 .stores{
-    height: 365px;
     width: 100%;
     float: left;
+    padding-bottom: 30px;
 }
 div.stores > div.container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+div.container > div.local-stores{
+    width: calc(1/3*100% - 2/3*20px);
+}
+div.local-stores > h2 {
+    font-size: 18pt;
+    color: #575153;
+    padding-top: 20px;
+}
+div.local-stores p:nth-child(2) {
+    font-size: 13pt;
+    color: #727272;
+    font-weight: bold;
+    padding-top: 20px;
+}
+div.local-stores p:nth-child(3) {
+    font-size: 15px;
+    color: #8e8c8c;
+    font-family: "Roboto";
+    padding-top: 20px;
+}
+div.local-stores p:nth-child(n+4) {
+    font-size: 14px;
+    color: #8e8c8c;
+    padding: 15px 0 0 30px;
+    position: relative;
+}
+div.local-stores p:nth-child(4)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f041";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+}
+div.local-stores p:nth-child(5)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f879";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+}
+div.local-stores p:nth-child(6)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f6f1";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+}
+div.local-stores p:nth-child(7)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0e0";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+}
+div.local-stores p:nth-child(8)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f017";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+}
+div.local-stores > button {
+    font-size: 16px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 15px 25px;
+    margin-top: 25px;
+}
+.stores-detail{
+    width: 100%;
+    float: left;
+    padding-bottom: 100px;
+}
 #map {
     height: 500px;
-    width: 1350px;
+    width: 65%;
     float: left;
 }
-.local-stores{
-    width: 700px;
+div.stores-detail div.local-stores{
+    height: 500px;
+    width: 35%;
     float: left;
+    padding-left: 30px;
+    background-color: #f8f8f8;
 }
+.net{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px 50px 0;
+}
+div.net > i{
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border-radius: 50%;
+    background-color: #727272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
 /* Day la phan footer */
 footer{
     float: left;
@@ -115,27 +243,53 @@ footer{
     float: left;
     width: 20%;
 }
+div.block-footer > p{
+    font-size: 13px;
+    color: #575153;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 65px 0 10px 0;
+}
+div.block-footer > ul > li {
+    font-size: 14px;
+    padding-top: 15px;
+    color: #727272;
+}
 .foot-ads{
     float: left;
+    display: flex;
+    flex-direction: row;
     width: 100%;
+    padding: 50px 0;
+    justify-content: space-between;
+    align-items: center;
 }
 .ads-1{
     font-size: 36px;
-    font-family: "Montserrat";
     color: #ffffff;
+    text-transform: uppercase;
     background-color: #333333;
     float: left;
-    width: 50%
+    width: 49%;
+    height: 200px;
+    padding: 60px;
+    text-align: center;
+}
+div.ads-1 > p:nth-child(1){
+    font-weight: 700;
+}
+div.ads-1 > p:nth-child(2){
+    font-weight: 300;
 }
 .ads-2{
     background-color: #00c8c8;
-    float: left;
-    width: 50%;
-    text-align: center;
     font-size: 30pt;
     color: white;
     letter-spacing: 15px;
-
+    width: 49%;
+    height: 200px;
+    text-align: center;
+    padding: 70px
 }
 .note{
     float: left;
@@ -144,16 +298,17 @@ footer{
     background-color: #333333;
 }
 .assign1{
-    float: left;
     width: 50%;
+    float: left;
+    padding-top: 15px;
     color: #999999;
 }
 .assign2{
-    float: left;
     width: 50%;
+    float: right;
     color: #777777;
 }
-.assign2>p {
-    padding: auto 0;
-    vertical-align: middle;
+div.assign2 > p {
+    float: right;
+    padding: 15px 0 0 30px;
 }

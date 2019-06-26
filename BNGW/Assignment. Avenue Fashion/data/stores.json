@@ -4,7 +4,8 @@
     "adress": "180-182 Regent Street, London, W1B 5BT",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.",
     "phone": "0123-456-789",
-    "website": "support@yourwebsite.com",
+    "email": "support@yourwebsite.com",
+    "web": "http://amazon.com",
     "time": "Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm"
   },
   {
@@ -12,7 +13,8 @@
     "adress": "109 Columbus Circle, New York, NY 10023",
     "desc": "Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.",
     "phone": "0888-888-888",
-    "website": "support@google.com",
+    "email": "support@google.com",
+    "web": "http://google.com",
     "time": "Monday-Saturday: 7am to 5pm  Saturday: Sunday: 8am to 12am"
   },
   {
@@ -20,7 +22,8 @@
     "adress": "2133 Rue Saint-Honoré, 75001 Paris",
     "desc": "Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.",
     "phone": "0000-000-000",
-    "website": "support@apple.com",
+    "email": "support@apple.com",
+    "web": "http://apple.com",
     "time": "Monday-Friday: 7am to 5pm  Saturday-Sunday: 7am to 11am"
   }
 ]
