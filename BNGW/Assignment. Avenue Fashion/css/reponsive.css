@@ -1,14 +1,25 @@
 @media screen and (max-width: 900px){
-    div.stores > div.container{
-        flex-direction: column;
+    div.container > div.local-stores{
+        max-width: calc(50% - 10px);
     }
     #map {
-        height: 500px;
         width: 100%;
-        float: left;
     }
     div.stores-detail div.local-stores{
         width: 100%;
-        float: left;
+    }
+}
+@media screen and (max-width: 600px){
+    div.container > div.local-stores{
+        max-width: 100%;
+    }
+    .foot-ads {
+        flex-direction: column;
+    }
+    .ads-1 {
+        width: 100%;
+    }
+    .ads-2 {
+        width: 100%;
     }
 }

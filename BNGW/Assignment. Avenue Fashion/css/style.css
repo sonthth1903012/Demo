@@ -12,7 +12,7 @@ body {
 }
 .container{
     float: none;
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 ul > li{
@@ -28,40 +28,28 @@ header{
 .top-link{
     float: left;
     width: 100%;
-    height: 45px;
     background-color: #333333;
 }
 div.top-link > div.container{
-    height: 100%;
-}
-.currency{
-    width: 50%;
-    height: 100%;
-    color: #777777;
+    height: 45px;
     font-size: 13px;
-    float: left;
-    padding-top: 15px;
-}
-div.link{
-    color: #999999;
-    font-size: 13px;
-    float: right;
-    width: 50%;
-    height: 100%;
+    color: #ffffff;
     display: flex;
     justify-content: flex-end;
 }
-div.link :nth-child(-n+2){
-    padding: 15px;
+div.top-link > div.container a{
+    padding: 15px 30px 0 0;
 }
-div.link :nth-child(3){
-    height: 100%;
+div.top-link > div.container a:first-child{
+    margin-right: auto;
+}
+div.top-link > div.container a:nth-child(4){
     color: #ffffff;
     padding: 15px 20px 15px 50px;
     background-color: #00c8c8;
     position: relative;
 }
-div.link :nth-child(3)::before{
+div.top-link > div.container a:nth-child(4)::before{
     font-family: "Font Awesome 5 Free";
     content: "\f07a";
     font-weight: 900;
@@ -128,9 +116,10 @@ div.stores > div.container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 div.container > div.local-stores{
-    width: calc(1/3*100% - 2/3*20px);
+    max-width: calc(1/3*100% - 2/3*20px);
 }
 div.local-stores > h2 {
     font-size: 18pt;
@@ -242,10 +231,12 @@ footer{
 .foot-menu{
     float: left;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .block-footer{
-    float: left;
-    width: 20%;
+
 }
 div.block-footer > p{
     font-size: 13px;
@@ -261,23 +252,22 @@ div.block-footer > ul > li {
 }
 .foot-ads{
     float: left;
-    display: flex;
-    flex-direction: row;
     width: 100%;
     padding: 50px 0;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 .ads-1{
-    font-size: 36px;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #333333;
-    float: left;
     width: 49%;
     height: 200px;
-    padding: 60px;
+    padding-top: 50px;
+    background-color: #333333;
+    font-size: 36px;
     text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 div.ads-1 > p:nth-child(1){
     font-weight: 700;
@@ -286,14 +276,14 @@ div.ads-1 > p:nth-child(2){
     font-weight: 300;
 }
 .ads-2{
-    background-color: #00c8c8;
-    font-size: 30pt;
-    color: white;
-    letter-spacing: 15px;
     width: 49%;
     height: 200px;
+    padding: 70px;
+    background-color: #00c8c8;
     text-align: center;
-    padding: 70px
+    letter-spacing: 15px;
+    font-size: 30pt;
+    color: white;
 }
 .note{
     float: left;
