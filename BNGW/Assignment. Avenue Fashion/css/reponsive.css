@@ -20,6 +20,9 @@
     .block-right{
         width: 100%;
     }
+    .stores1 > .block-right {
+        padding: 0;
+    }
 }
 @media screen and (max-width: 768px){
     .container {
