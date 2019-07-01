@@ -1,29 +1,47 @@
-[
-  {
-    "name": "London",
-    "adress": "180-182 Regent Street, London, W1B 5BT",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.",
-    "phone": "0123-456-789",
-    "email": "support@yourwebsite.com",
-    "web": "http://amazon.com",
-    "time": "Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm"
+{
+  "intro": {
+    "title": "local stores",
+    "slogan": "find a store near you"
   },
-  {
-    "name": "New York",
-    "adress": "109 Columbus Circle, New York, NY 10023",
-    "desc": "Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.",
-    "phone": "0888-888-888",
-    "email": "support@google.com",
-    "web": "http://google.com",
-    "time": "Monday-Saturday: 7am to 5pm  Saturday: Sunday: 8am to 12am"
-  },
-  {
-    "name": "Paris",
-    "adress": "2133 Rue Saint-Honoré, 75001 Paris",
-    "desc": "Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.",
-    "phone": "0000-000-000",
-    "email": "support@apple.com",
-    "web": "http://apple.com",
-    "time": "Monday-Friday: 7am to 5pm  Saturday-Sunday: 7am to 11am"
-  }
-]
+  "local": [
+    {
+      "name": "London",
+      "adress": "180-182 Regent Street, London, W1B 5BT",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.",
+      "phone": "0123-456-789",
+      "email": "support@yourwebsite.com",
+      "web": "http://amazon.com",
+      "time": "Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm",
+      "ggmap": {
+        "lat": "51.5124",
+        "long": "-0.142005"
+      }
+    },
+    {
+      "name": "New York",
+      "adress": "109 Columbus Circle, New York, NY 10023",
+      "desc": "Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.",
+      "phone": "0888-888-888",
+      "email": "support@google.com",
+      "web": "http://google.com",
+      "time": "Monday-Saturday: 7am to 5pm  Saturday: Sunday: 8am to 12am",
+      "ggmap": {
+        "lat": "40.7683",
+        "long": "-73.9844"
+      }
+    },
+    {
+      "name": "Paris",
+      "adress": "2133 Rue Saint-Honoré, 75001 Paris",
+      "desc": "Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.",
+      "phone": "0000-000-000",
+      "email": "support@apple.com",
+      "web": "http://apple.com",
+      "time": "Monday-Friday: 7am to 5pm  Saturday-Sunday: 7am to 11am",
+      "ggmap": {
+        "lat": "48.86400",
+        "long": "2.3316"
+      }
+    }
+  ]
+}

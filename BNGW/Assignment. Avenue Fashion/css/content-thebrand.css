@@ -1,0 +1,54 @@
+main{
+    width: 100%;
+    float: left;
+    margin: 50px 0;
+}
+main > div.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block-left,
+.block-right{
+    width: 49%;
+}
+.block-right{
+    padding-top: 30px;
+}
+img{
+    width: 100%;
+    margin: 20px 0;
+}
+.block-right > img{
+    margin-top: 60px;
+}
+
+.company > p:nth-child(1){
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #575153;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.company > p:nth-child(2){
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #727272;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.company > p:nth-child(3){
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #8e8c8c;
+    padding-top: 20px;
+}
+.ass{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.ass img{
+    width: 150px;
+}

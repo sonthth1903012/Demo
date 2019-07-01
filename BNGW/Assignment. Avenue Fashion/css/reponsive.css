@@ -1,4 +1,12 @@
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
+@media screen and (max-width: 992px){
+    .container {
+        width: 970px;
+    }
     div.container > div.local-stores{
         max-width: calc(50% - 10px);
     }
@@ -8,8 +16,15 @@
     div.stores-detail div.local-stores{
         width: 100%;
     }
+    .block-left,
+    .block-right{
+        width: 100%;
+    }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
+    .container {
+        width: 750px;
+    }
     div.container > div.local-stores{
         max-width: 100%;
     }
@@ -22,4 +37,7 @@
     .ads-2 {
         width: 100%;
     }
+}
+@media screen and (max-width: 576px){
+
 }
