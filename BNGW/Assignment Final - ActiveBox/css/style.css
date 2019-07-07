@@ -1,0 +1,335 @@
+/*-----------------------------
+====Day la phan chung====
+-----------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+
+/*-----------------------------
+    Day la phan Header
+-----------------------------*/
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url("../img/intro.png");
+}
+.ground {
+    width: 100%;
+    background-color: rgba(43, 46, 74, 0.9);
+}
+header .container{
+    color: #ffffff;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+}
+nav > img {
+    margin-right: auto;
+}
+nav > li{
+    float: left;
+    list-style-type: none;
+    margin-left: 50px;
+    font-weight: bold;
+}
+#intro {
+    width: 100%;
+    text-align: center;
+    padding: 150px 120px;
+}
+#intro > p:nth-child(1) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+#intro > p:nth-child(2) {
+    font-size: 22px;
+    padding: 30px 0px 70px 0px;
+}
+#intro > button {
+    background-color: #e84545;
+    padding: 15px 45px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+/*-----------------------------
+    Day la phan Main
+-----------------------------*/
+main {
+    width: 100%;
+}
+#function {
+    margin-top: 20px;
+    width: 100%;
+}
+#function > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.code {
+    width: 30%;
+    text-align: center;
+    margin-top: 65px;
+}
+.code > div {
+    text-align: center;
+}
+.code > p:nth-child(2){
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2d3033;
+    text-transform: uppercase;
+}
+.code > p:nth-child(3){
+    font-size: 14px;
+    color: #6c7279;
+}
+
+/*Phan Project*/
+#project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 100%;
+}
+.project-one {
+    width: 25%;
+    padding-top: 17.5%;
+    border: 1px solid #ffffff;
+    position: relative;
+}
+.project-demo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.project-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.project-detail{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(232,69,69,0.8);
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-detail > p:nth-child(1){
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.0;
+}
+.project-one:hover .project-img{
+    transform: scale(1.5);
+}
+.project-one:hover .project-detail{
+    opacity: 1;
+}
+
+
+/*Day la phan Team*/
+#team {
+    margin-top: 50px;
+    width: 100%;
+}
+#team > .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.member {
+    width: 24%;
+}
+.member img {
+    width: 100%;
+}
+.member > p:nth-child(2){
+    margin-top: 30px;
+    font-size: 22px;
+    color: #2d3033;
+}
+.member > p:nth-child(3){
+    margin-top: 15px;
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+}
+.member > p:nth-child(4){
+    margin-top: 30px;
+    font-size: 14px;
+    color: #6c7279;
+}
+
+/*Day la phan Popular*/
+#popular{
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 25%;
+    position: relative;
+}
+.thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.comment{
+    position: absolute;
+    background-color: #53354a;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 50px 300px 60px 80px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.comment p:nth-child(1){
+    font-size: 32px;
+    font-style: italic;
+    font-family: serif;
+}
+.comment p:nth-child(2){
+    padding-top: 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.choose {
+    margin-left: 100px;
+    margin-top: auto;
+    display: flex;
+}
+.set {
+    margin-right: 15px;
+    width: 10px;
+    height: 10px;
+    background-color: #755d6e;
+    border-radius: 50%;
+}
+.set:hover {
+    background-color: white;
+}
+
+/*Day la phan Ready*/
+#ready {
+    padding: 100px;
+    width: 100%;
+    text-align: center;
+    color: #2d3033;
+}
+#ready > p:nth-child(1){
+    font-size: 28px;
+}
+#ready > p:nth-child(2){
+    line-height: 2.5;
+    font-size: 13px;
+    font-weight: bold;
+}
+#ready > button {
+    background-color: #e84545;
+    margin-top: 30px;
+    padding: 15px 80px;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+/*-----------------------------
+    Day la phan Footer
+-----------------------------*/
+footer {
+    width: 100%;
+}
+#about-me{
+    background-color: #3a3e64;
+    width: 100%;
+    height: 250px;
+    color: white;
+}
+#about-me > .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+#about-me >.container > div {
+    width: 32%;
+    text-align: center;
+}
+#about-me >.container > div:first-child {
+    padding: 0 100px;
+}
+#about-me >.container > div > p:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 3.0;
+}
+#about-me >.container > div > p:nth-child(2){
+    font-size: 14px;
+    line-height: 1.5;
+}
+#copyright{
+    background-color: #313454;
+    padding-top: 25px;
+    width: 100%;
+    height: 90px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+#copyright i {
+    color: #e84545;
+}
+#copyright span {
+     font-weight: 700;
+}

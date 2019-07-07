@@ -1,0 +1,129 @@
+{
+  "function": [
+    {
+      "logo": "<img src=\"img/function0.png\"/>",
+      "title": "Easily Customised",
+      "desc": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+    },
+    {
+      "logo": "<img src=\"img/function1.png\"/>",
+      "title": "Responsive REady",
+      "desc": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+    },
+    {
+      "logo": "<img src=\"img/function2.png\"/>",
+      "title": "Modern Design",
+      "desc": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+    },
+    {
+      "logo": "<img src=\"img/function3.png\"/>",
+      "title": "Clean Code",
+      "desc": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+    },
+    {
+      "logo": "<img src=\"img/function4.png\"/>",
+      "title": "Ready to Ship",
+      "desc": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+    },
+    {
+      "logo": "<img src=\"img/function5.png\"/>",
+      "title": "Download for Free",
+      "desc": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+    }
+  ],
+  "project": [
+    {
+      "img": "img/project0.png",
+      "name": "Project Name",
+      "designer": "User Interface Design"
+    },
+    {
+      "img": "img/project1.png",
+      "name": "Project Name",
+      "designer": "User Interface Design"
+    },
+    {
+      "img": "img/project2.png",
+      "name": "Project Name",
+      "designer": "User Interface Design"
+    },
+    {
+      "img": "img/project3.png",
+      "name": "Project Name",
+      "designer": "User Interface Design"
+    },
+    {
+      "img": "img/project4.png",
+      "name": "Project Name",
+      "designer": "User Interface Design"
+    },
+    {
+      "img": "img/project5.png",
+      "name": "Project Name",
+      "designer": "User Interface Design"
+    },
+    {
+      "img": "img/project6.png",
+      "name": "Project Name",
+      "designer": "User Interface Design"
+    },
+    {
+      "img": "img/project7.png",
+      "name": "Project Name",
+      "designer": "User Interface Design"
+    }
+  ],
+  "team": [
+    {
+      "avatar": "<img src=\"img/member0.png\"/>",
+      "name": "Ruth Woods",
+      "job": "Founder, CEO",
+      "detail": "The chief executive officer (CEO) is the top position in an organization and is responsible for implementing existing plans and policies, ensuring the successful management of the business and setting future strategy"
+    },
+    {
+      "avatar": "<img src=\"img/member1.png\"/>",
+      "name": "Timothy Reed",
+      "job": "Co-Founder, Developer",
+      "detail": "Full stack development is one of the most talked about services in the contemporary world. In order to save cost & time; various businesses, ISVs, SMEs, and in-fact big Enterprises hire full stack developers."
+    },
+    {
+      "avatar": "<img src=\"img/member2.png\"/>",
+      "name": "Victoria Valdez",
+      "job": "UI Designer",
+      "detail": "User interface (UI) design is the process of making interfaces in software or computerized devices with a focus on looks or style. Designers aim to create designs users will find easy to use and pleasurable."
+    },
+    {
+      "avatar": "<img src=\"img/member3.png\"/>",
+      "name": "Beverly Little",
+      "job": "Data Scientist",
+      "detail": "Data science is a multi-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data.Data science is the same concept as data mining and big data."
+    }
+  ],
+  "popular": [
+    {
+      "thumbnail": "img/customer0.png",
+      "customer": "Susan Sims, Interaction Designer at XYZ",
+      "comment": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam..."
+    },
+    {
+      "thumbnail": "img/customer1.jpg",
+      "customer": "Nguyễn Văn Tùng, sinh viên lớp T1904A - FPTSchool",
+      "comment": "Đôi khi, ta bật cười vì nhớ lại những ngày mình đã khóc và đôi khi ta bật khóc vì nhớ lại những ngày mình đã cười...."
+    },
+    {
+      "thumbnail": "img/customer2.jpg",
+      "customer": "Hồ Lý Thái, sinh viên lớp T1904A - FPT School",
+      "comment": "Người vô tình vẽ hoa vẽ lá, ta vô tình tưởng đó là mùa xuân..."
+    },
+    {
+      "thumbnail": "img/customer3.jpg",
+      "customer": "Nguyễn Thế Anh, sinh viên lớp T1904A - FPT School",
+      "comment": "Thời gian thấm thoát thoi đưa - Kiểu gì anh cũng sẽ lừa được em..."
+    },
+    {
+      "thumbnail": "img/customer4.jpg",
+      "customer": "Phạm Hoàng Mai, sinh viên lớp T1904A - FPT School",
+      "comment": "Em mạnh mẽ để vượt qua bão giông nhưng lại yếu đuối trước ly cafe dịu êm, vì cạnh đó có anh...."
+    }
+  ]
+}
